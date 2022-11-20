@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="w-75 m-auto">
+        <h3 class="py-5">Bookmarker</h3>
+        <hr>
+        <div class="container-book text-center p-5">
+            <h2>Bookmark your favorite sites</h2>
+            <p>Site Name</p>
+            <input type="text" name="name" id="nameInput" placeholder="Bookmark Name" class="form-control">
+            <div id="nameAlert" class="alert alert-danger p-2 my-2 d-none"> It is requered</div>
+            <p>Site URL</p>
+            <input type="text" name="url" id="urlInput" placeholder="website URL" class="form-control">
+            <button disabled="true" id="addBtn" class="btn btn-primary mt-3 btns">submit</button>
+        </div>
+
+        <div class="srch my-3 p-3">
+            <input type="text" name="search" id="searchInput" placeholder="search by name" class="form-control my-3">
+        </div>
+
+        <div id="mark" >
+            
+        </div>
+
+        <hr>
+        <footer>
+            <p>
+                © 2019 Bookmarker Inc.
+            </p>
+        </footer>
+    </div>
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
